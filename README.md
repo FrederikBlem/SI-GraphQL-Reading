@@ -9,8 +9,8 @@ an API in service integration.
 Your task is to research the public sources and sample implementations of GraphQL and 
 formulate answers to the following questions: 
 1. **What is GraphQL, what is used for, and why does it contain‘graph’in its title?** 
-My answer.
+<br>My answer.
 2. **Which known drawbacks of implementing API gateways in service integration could be resolved by GraphQL? **
-My answer.
+<br>My answer.
 3. **How does GraphQL compare toRESTful API and gRPC? Which are the appropriate use cases for implementing each of these technologies?**
-My answer.
+<br>My answer.
