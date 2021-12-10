@@ -20,4 +20,6 @@ The application data graph is similar to what you see when operating a Neo4j dat
 <br>The advantages above help keep microservices more lightweight because they can be specific in their queries and not need to transfer large amounts of data.
 
 3. **How does GraphQL compare toRESTful API and gRPC? Which are the appropriate use cases for implementing each of these technologies?**
-<br>
+<br>GraphQL is less error prone and is well adapted to use cases utilizing multiple microservices and mobile apps for the reduced data transfer it results in when used properly.
+<br>Meanwhile, both because of the learning curve and the fact that GraphQL cannot manage file uploading, REST is better for other purposes, such as resource-driven apps. Complex queries will also be easier to write for REST for most developers not accustomed to GraphQL.
+<br>If the API is private, it might be worth it to power its microservices architecture with gRPC instead of GraphQL. That's if it's mostly about actions/events rather than relationships and request flexibility.
